@@ -23,8 +23,8 @@ void update(int node,int start,int end,int idx,int val)
 {
     if(start==end)
     {
-        tree[idx]=val;
-        arr[idx]=val;
+        tree[idx]+=val;
+        arr[idx]+=val;
     }
     else
     {

@@ -46,7 +46,7 @@ int query(int node,int start,int end,int l,int r)
 {
     if(r < start or end < l)
     {
-        return 1000005;
+        return 0;
     }
     if(l<=start and end<=r)
     {
